@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lbltitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mi Primera Aplicacion"
+        android:background="#FFBD0C"
+        android:gravity="center_horizontal|center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/lblusuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USUARIO:" />
+
+    <EditText
+        android:id="@+id/txtusuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/lblclave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CLAVE:" />
+
+    <EditText
+        android:id="@+id/txtclave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/ic_lock_lock"
+        android:text="OK"
+        android:textStyle="bold" />
+    <ToggleButton
+        android:id="@+id/tglOnOff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+    <TextView
+        android:id="@+id/lblresultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESULTADO"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal|center_horizontal"
+        android:background="#60C0FF"/>
+    <TextView
+        android:id="@+id/lblVer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal"
+        android:text=""
+        android:textSize="14sp"/>
+</LinearLayout>
